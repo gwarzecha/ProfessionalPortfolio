@@ -23,6 +23,7 @@
       font-family: 'Courier New', Courier, monospace;
       font-size: 42px;
       color: rgb(9, 49, 95);
+      text-shadow: 0 0 6px  rgba(82, 110, 133, 0.979);
       padding: 0 0 0 10px;
 
   }
@@ -40,10 +41,20 @@
 
   header nav ul li a {
       font-family: Arial, Helvetica, sans-serif;
-      padding: 20px 20px;
+      padding: 10px 10px;
+      margin: 20px;
       text-decoration: none;
-      font-size: 24px;
+      font-size: 20px;
       color: rgb(9, 49, 95);
+      text-shadow: 0 0 6px  rgba(82, 110, 133, 0.979);
+      transition-property: all;
+      transition-duration: 0.7s;
+      transition-timing-function: ease-in-out;
+  }
+
+  header nav ul li a:hover {
+      font-size: 24px;
+      transition: 0.5s;
   }
 
   .hero {
@@ -59,8 +70,11 @@
   .hero h2 {
       font-family: 'Courier New', Courier, monospace;
       padding: 16px;
+      margin: 0 0 15px 0;
       font-size: 36px;
       color: rgba(114, 152, 184, 0.979);
+      background-color: rgb(9, 49, 95);
+      opacity: 80%;
   }
 
 
@@ -72,8 +86,9 @@
   .primary-title {
       font-family: 'Courier New', Courier, monospace;
       color: rgb(9, 49, 95);
-      display: flex;
+      text-shadow: 0 0 6px  rgba(125, 130, 136, 0.979);
       flex: 1 30%;
+      display: flex;
       justify-content: flex-end;
       flex-wrap: wrap;
       margin: 20px 50px 20px 15px;
@@ -84,8 +99,18 @@
   .content {
       flex: 2 70%;
       margin: 20px 30px;
-      flex-wrap: wrap;    
+         
   }
+
+  .content-img {
+      flex: 1 20%;
+      margin: 10px;
+  }
+
+  .content-img img {
+      max-width: 100%;
+  }
+  
 
   .project-wrapper {
       display: flex;
@@ -106,14 +131,17 @@
       gap: 10px;     
   }
 
-  
-
   .pro-1 {
       /* the following bit allows image to scale to the gride and occupy all space */
       background: url(../images/runbuddyimg.png);
       background-size: cover;
       grid-row: 1 / span 2;
       grid-column: 1 / span 2;     
+  }
+
+  a {
+      text-decoration: none;
+      font-family: 'Courier New', Courier, monospace;
   }
 
   .pro-2 {
@@ -167,9 +195,10 @@
     flex-wrap: wrap;
     margin: 0 0 30px 0;
     padding: 30px;
-    font-size: 18px;
+    font-size: 24px;
+    color:rgb(9, 49, 95);
     background-color: rgba(114, 152, 184, 0.979);
-    opacity: 80%;
+    opacity: 85%;
     transition-duration: 1s;
     transition-property: all;
     transition-timing-function: ease-out;
@@ -179,7 +208,7 @@
 
   .link-title:hover  {
     opacity: 1;
-    font-size: 45px;
+    font-size: 40px;
     transition: 0.5s
     
   }
@@ -188,8 +217,10 @@
     flex-wrap: wrap;
     margin: 0 0 15px 0;
     padding: 15px;
+    font-size: 16px;
+    color: rgb(9, 49, 95);
     background-color: rgba(114, 152, 184, 0.979);
-    opacity: 80%;
+    opacity: 85%;
     transition-duration: 1s;
     transition-property: all;
     transition-timing-function: ease-out;
@@ -198,7 +229,7 @@
 
   .link-title-2:hover {
     opacity: 1;
-    font-size: 25px;
+    font-size: 22px;
     transition: 0.5s;
   }
 
