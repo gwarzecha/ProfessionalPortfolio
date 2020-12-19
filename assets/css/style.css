@@ -20,7 +20,7 @@
   }
 
   header h1 {
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-family: 'Courier New', Courier, monospace;
       font-size: 42px;
       color: rgb(9, 49, 95);
       padding: 0 0 0 10px;
@@ -57,8 +57,8 @@
   }    
 
   .hero h2 {
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      padding: 45px;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 16px;
       font-size: 36px;
       color: rgba(114, 152, 184, 0.979);
   }
@@ -70,7 +70,8 @@
   }
 
   .primary-title {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Courier New', Courier, monospace;
+      color: rgb(9, 49, 95);
       display: flex;
       flex: 1 30%;
       justify-content: flex-end;
@@ -136,6 +137,24 @@
       grid-column: 3 / span 1;
   }
 
+  .pro-5 {
+      background: url(../images/bluelava.jpg);
+      background-size: cover;
+      grid-row: 3 / span 1;
+      grid-column: 2 / span 1;
+  }
+
+  .pic {
+      border: 3px solid rgb(9, 49, 95);
+  }
+
+  p {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4;
+      font-size: 17px;
+      color: rgb(9, 49, 95);
+  }
+
   #links {
       list-style: none;
       display: flex;
@@ -146,5 +165,6 @@
 
   #links a {
       text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
       color: rgb(9, 49, 95);
   }
