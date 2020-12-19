@@ -88,7 +88,7 @@
   }
 
   .project-wrapper {
-    display: flex;
+      display: flex;
       flex: 2 70%;
       margin: 20px 30px;
       flex-wrap: wrap; 
@@ -103,17 +103,17 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
-      gap: 10px;
-      
+      gap: 10px;     
   }
+
+  
 
   .pro-1 {
       /* the following bit allows image to scale to the gride and occupy all space */
       background: url(../images/runbuddyimg.png);
       background-size: cover;
       grid-row: 1 / span 2;
-      grid-column: 1 / span 2;
-      
+      grid-column: 1 / span 2;     
   }
 
   .pro-2 {
@@ -146,6 +146,60 @@
 
   .pic {
       border: 3px solid rgb(9, 49, 95);
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      overflow: hidden;
+  }
+
+  .pic a {
+      text-decoration: none;
+      
+      font-family: 'Courier New', Courier, monospace;
+  }
+
+  .pic:hover {
+      opacity: 70%;
+      transition: 0.5s;
+  }
+
+  .link-title {
+    flex-wrap: wrap;
+    margin: 0 0 30px 0;
+    padding: 30px;
+    font-size: 18px;
+    background-color: rgba(114, 152, 184, 0.979);
+    opacity: 80%;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-delay: 0.1s;
+    
+  }
+
+  .link-title:hover  {
+    opacity: 1;
+    font-size: 45px;
+    transition: 0.5s
+    
+  }
+
+  .link-title-2 {
+    flex-wrap: wrap;
+    margin: 0 0 15px 0;
+    padding: 15px;
+    background-color: rgba(114, 152, 184, 0.979);
+    opacity: 80%;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-delay: 0.1s;
+  }
+
+  .link-title-2:hover {
+    opacity: 1;
+    font-size: 25px;
+    transition: 0.5s;
   }
 
   p {
