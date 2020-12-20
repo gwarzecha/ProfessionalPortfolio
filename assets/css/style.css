@@ -281,3 +281,18 @@
       font-size: 24px;
       transition: 0.5s;
   }
+
+  #phone {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 49, 95);
+    font-size: 20px;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+  }
+
+  #phone:hover {
+    font-size: 24px;
+    transition: 0.5s;
+  }
