@@ -10,4 +10,4 @@ A professional portfolio to showcase applications that I have launched and the p
 ## Website
 https://gwarzecha.github.io/ProfessionalPortfolio/
 
-![portfolio-screenshot](../images/portfolio-screenshot.png)
+![portfolio-screenshot](./assets/images/portfolio-screenshot.png)
