@@ -1,0 +1,25 @@
+{
+  "name": "professional-portfolio",
+  "version": "1.0.0",
+  "description": "## Purpose A professional portfolio to showcase applications that I have launched and the projects that are most representative of my skill-set. The portfolio also includes links to my GitHub page, Linkedin, and up-to-date contact information.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwarzecha/ProfessionalPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwarzecha/ProfessionalPortfolio/issues"
+  },
+  "homepage": "https://github.com/gwarzecha/ProfessionalPortfolio#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.1.1"
+  }
+}

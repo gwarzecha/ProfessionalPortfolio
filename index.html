@@ -10,50 +10,29 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Play&family=Roboto+Condensed:wght@300&display=swap"
         rel="stylesheet">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="./assets/css/style2.css" />
+    <link rel="stylesheet" href="./src/styles.css" />
     <title>Garrett's Portfolio</title>
 </head>
 
-<body class="blue-grey">
+<body>
     <main>
-        <nav class="blue-grey darken-1 nav-wrapper">
-            <div class="container">
-                <a href="#" class="brand-logo">Garrett Warzecha</a>
-                <a href="#" class="sidenav-trigger" data-target="mobile-links">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="https://github.com/gwarzecha" class="linkText" target="_blank">GitHub</a></li>
-                    <li><a href="https://linkedin.com/in/garrett-warzecha-878906154 
-                        " class="linkText" target="_blank">Linkedin</a></li>
-                    <li><a href="mailto: gmwarzecha@gmail.com" class="linkText">Email</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <ul class="sidenav" id="mobile-links">
-            <li><a href="https://github.com/gwarzecha" class="linkText" target="_blank">GitHub</a></li>
-            <li><a href="https://linkedin.com/in/garrett-warzecha-878906154 
-                        " class="linkText" target="_blank">Linkedin</a></li>
-            <li><a href="mailto: gmwarzecha@gmail.com" class="linkText">Email</a></li>
-        </ul>
-
-
-
+        <header>
+            <h1>Garrett Warzecha</h1>
+            <a href="https://github.com/gwarzecha" class="href" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/garrett-warzecha-878906154" class="href" target="_blank">LinkedIn</a>
+            <a href="mailto: gmwarzecha@gmail.com" class="href" target="_blank">Contact Me</a>
+        </header>
 
         <div class="container">
             <div class="row" id="aboutMe">
-                <div class="col l4 m6" id="content-bio">
+                <div id="content-bio">
                     <div class="content-img">
                         <img src="./assets/images/headshot.png" class="responsive-img" id="headshot"
                             alt="Garrett Warzecha" />
                     </div>
                 </div>
-                <div class="col l8 m6" id="content-text">
+                <div id="content-text">
                     <p id="aboutMeText">
                         My Name is Garrett Warzecha and I am currently a Bootcamp Student
                         at the University of Arizona. Within this portfolio, you will
@@ -73,17 +52,17 @@
             <div class="row">
                 <div class="divider"></div>
 
-                <div class="col s12 m12 l12 img-container">
+                <div class="img-container">
                     <a href="https://coding-bootcamp-survival-guide.herokuapp.com/" target="_blank">
                         <img src="./assets/images/bootcamp_survival.png" class="responsive-img projectImg" />
                     </a>
                 </div>
-                <div class="col s6 m6 l6 img-container">
+                <div class="img-container">
                     <a href="https://gwarzecha.github.io/restaurant-search/" target="_blank">
                         <img src="./assets/images/theQuickBite.png" class="responsive-img projectImg" />
                     </a>
                 </div>
-                <div class="col s6 m6 l6 img-container">
+                <div class="img-container">
                     <a href="https://gwarzecha.github.io/weather-dashboard/" target="_blank">
                         <img src="./assets/images/WD02.png" class="responsive-img projectImg" />
                     </a>
