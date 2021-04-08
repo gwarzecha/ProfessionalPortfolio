@@ -16,45 +16,46 @@
 </head>
 
 <body class="text-gray-600">
-    <main>
-        <header>
-            <h1 class="text-gray-700 text-lg font-bold uppercase">Garrett Warzecha</h1>
-            <a href="https://github.com/gwarzecha" class="href font-semibold" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/garrett-warzecha-878906154" class="href font-semibold" target="_blank">LinkedIn</a>
-            <a href="mailto: gmwarzecha@gmail.com" class="href font-semibold" target="_blank">Contact Me</a>
-        </header>
+    
+    <nav class="m-2">
+        <div class="flex items-center justify-between">
+            <h1 class="text-gray-700 text-lg font-bold uppercase p-4">Garrett Warzecha</h1>
+            <a href="https://github.com/gwarzecha" class="href font-semibold p-4 ml-40" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/garrett-warzecha-878906154" class="href font-semibold p-4"
+                target="_blank">LinkedIn</a>
+            <a href="mailto: gmwarzecha@gmail.com" class="href font-semibold p-4" target="_blank">Contact Me</a>
+        </div>
 
-        <div class="container">
-            <div class="row" id="aboutMe">
-                <div id="content-bio">
+    </nav>
+
+    <main>
+        <div>
+            <div class="grid lg:grid-cols-2 justify-center container my-12">
+                <div  class="m-4" id="content-img">
                     <div class="content-img">
-                        <img src="./images/headshot.png" alt="headshot of Garrett" class="responsive-img" id="headshot"
-                            />
+                        <img src="./images/headshot.png" alt="headshot of Garrett" id="headshot" />
                     </div>
                 </div>
-                <div id="content-text">
+                <div class="m-4" id="content-text">
                     <p class="font-light" id="aboutMeText">
                         My Name is Garrett Warzecha and I am currently a Bootcamp Student
                         at the University of Arizona. Within this portfolio, you will
                         find a collection of projects that are representative of my skill-set,
                         along with a link to my <span><a href="https://github.com/gwarzecha"
                                 target="_blank">GitHub</a></span>, <span><a href="https://linkedin.com/in/garrett-warzecha-878906154
-                            " target="_blank">Linkedin</a></span>, and <span><a
+                                " target="_blank">Linkedin</a></span>, and <span><a
                                 href="mailto: gmwarzecha@gmail.com">Email</a></span>.
-
+    
                     </p>
                 </div>
             </div>
-        </div>
-
-
-        <div class="container">
-            <div class="row">
-                <div class="divider"></div>
-
+    
+    
+            <div class="grid lg:grid-cols-3 gap-10">
                 <div class="img-container">
                     <a href="https://coding-bootcamp-survival-guide.herokuapp.com/" target="_blank">
-                        <img src=".//images/bootcamp_survival.png" alt="first project image" class="responsive-img projectImg" />
+                        <img src=".//images/bootcamp_survival.png" alt="first project image"
+                            class="responsive-img projectImg" />
                     </a>
                 </div>
                 <div class="img-container">
@@ -69,6 +70,7 @@
                 </div>
             </div>
         </div>
+
 
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
